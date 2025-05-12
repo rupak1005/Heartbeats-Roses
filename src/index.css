@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 350 100% 97%;
+    --foreground: 350 60% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 350 60% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 350 60% 20%;
+
+    --primary: 350 83% 57%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 350 100% 94%;
+    --secondary-foreground: 350 60% 20%;
+
+    --muted: 350 10% 90%;
+    --muted-foreground: 350 10% 40%;
+
+    --accent: 350 100% 94%;
+    --accent-foreground: 350 60% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 350 40% 90%;
+    --input: 350 40% 90%;
+    --ring: 350 83% 57%;
+
+    --radius: 0.5rem;
+    
+    /* Gradient Background Animation Variables */
+    --gradient-background-start: #FFDEE2;
+    --gradient-background-end: #ff6a8f;
+    --first-color: #FDE1D3;
+    --second-color: #E6E6FA;
+    --third-color: #7E69AB;
+    --fourth-color: #DAA520;
+    --fifth-color: #ec2c2c;
+    --pointer-color: transparent;
+    --size: 80%;
+    --blending-value: hard-light;
+  }
+
+  .dark {
+    --background: 260 22% 14%;
+    --foreground: 260 10% 90%;
+
+    --card: 260 22% 17%;
+    --card-foreground: 260 10% 90%;
+
+    --popover: 260 22% 17%;
+    --popover-foreground: 260 10% 90%;
+
+    --primary: 260 42% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 22% 22%;
+    --secondary-foreground: 260 10% 90%;
+
+    --muted: 260 22% 25%;
+    --muted-foreground: 260 10% 70%;
+
+    --accent: 38 52% 45%;
+    --accent-foreground: 260 10% 90%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 260 10% 90%;
+
+    --border: 260 22% 26%;
+    --input: 260 22% 26%;
+    --ring: 260 42% 55%;
+    
+    /* Dark mode gradient animation variables */
+    --gradient-background-start: #1A1F2C;
+    --gradient-background-end: #33293E;
+    --first-color: #9D8AC0;
+    --second-color: #7E69AB;
+    --third-color: #B8860B;
+    --fourth-color: #DAA520;
+    --fifth-color: #F0E6D0;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-romantic-light dark:bg-romantic-purple-dark text-foreground font-montserrat overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair text-romantic-dark dark:text-romantic-gold; /* Adjusted text colors */
+  }
+}
+
+@layer components {
+  .handwritten-text {
+    @apply font-playfair italic leading-relaxed text-lg;
+  }
+  
+  .heart-button {
+    @apply relative inline-flex items-center justify-center h-12 w-12 bg-romantic dark:bg-romantic-purple text-white rounded-full transition-transform hover:scale-110;
+  }
+  
+  .heart-button::before {
+    content: '';
+    @apply absolute w-full h-full rounded-full bg-romantic-dark dark:bg-romantic-purple-light opacity-0 transition-opacity;
+  }
+  
+  .heart-button:hover::before {
+    @apply opacity-20;
+  }
+
+  .floating-heart {
+    @apply absolute pointer-events-none 
+    text-romantic dark:text-romantic-purple;
+  }
+  
+  .shimmer-underline {
+    @apply relative inline-block;
+  }
+  
+  .shimmer-underline::after {
+    content: '';
+    @apply absolute left-0 right-0 bottom-0 h-0.5 bg-gradient-to-r from-transparent via-romantic dark:via-romantic-purple to-transparent bg-[length:200%_100%] animate-shimmer;
+  }
+
+  .photo-frame {
+    @apply relative p-4 bg-white/80 dark:bg-romantic-purple-dark/80 backdrop-blur-sm rounded-lg shadow-md overflow-hidden 
+           transition-all duration-500 hover:shadow-lg;
+  }
+
+  .photo-frame::before {
+    content: '';
+    @apply absolute -inset-1 bg-gradient-to-r from-romantic dark:from-romantic-purple to-romantic-peach dark:to-romantic-gold rounded-xl opacity-50 blur-sm transition-opacity;
+  }
+  
+  .photo-frame:hover::before {
+    @apply opacity-80;
+  }
+  
+  .glassmorphism {
+    @apply bg-white/20 dark:bg-black/20 backdrop-blur-lg border border-white/20 dark:border-white/10 rounded-xl;
+  }
+  
+  .bg-gradient-shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    background-size: 200% 100%;
+    animation: shimmerBackground 2s infinite;
+  }
+  
+  /* Background Gradient Animation Styles */
+  .gradients-container {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(
+      to bottom,
+      var(--gradient-background-start),
+      var(--gradient-background-end)
+    );
+  }
+
+  .navbar-link {
+    @apply text-romantic-dark/80 dark:text-romantic-gold/80 hover:text-romantic-dark dark:hover:text-romantic-gold; /* Improved hover visibility */
+  }
+}
+
+@keyframes shimmerBackground {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes float-star {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(0) rotate(360deg);
+  }
+}
+
+@keyframes text-reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 5px 2px rgba(255, 143, 171, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px 5px rgba(255, 143, 171, 0.7);
+  }
+}

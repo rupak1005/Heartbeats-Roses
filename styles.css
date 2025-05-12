@@ -1,0 +1,10 @@
+/* Remove dark mode styles */
+/* Example:
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+*/
+
+/* Remove any other dark mode-specific rules */
+// ...existing code...
