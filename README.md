@@ -5,6 +5,8 @@ I built **Heartbeats & Roses** as a digital love letter disguised as a websiteâ€
 > **Note:** The lines and content in this public version are AI-generated and slightly altered to protect my privacy. Iâ€™ve removed personal images and original messages. You're welcome to customize it with your own memories and words.
 
 ---
+# Live Link
+https://heartbeatsroses.vercel.app/
 
 # Screenshots
 **Home**
