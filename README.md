@@ -6,6 +6,18 @@ I built **Heartbeats & Roses** as a digital love letter disguised as a websiteâ€
 
 ---
 
+# Screenshots
+**Home**
+![Screenshot 2025-05-12 at 21-59-36 heartbeats-and-roses](https://github.com/user-attachments/assets/3da1bc79-4c62-4534-b92d-ebc6416e0f86)
+![Screenshot 2025-05-12 at 21-59-51 heartbeats-and-roses](https://github.com/user-attachments/assets/a5e0ba4d-38ed-4287-ac0c-c94792eeb296)
+![Screenshot 2025-05-12 at 22-00-02 heartbeats-and-roses](https://github.com/user-attachments/assets/5daff5dd-a72a-4889-ba3c-87acb1c89d3d)
+**Music Section**
+![Screenshot 2025-05-12 at 21-44-29 heartbeats-and-roses](https://github.com/user-attachments/assets/c50ef9a0-5b61-4730-bbd9-60a6599207d8)
+**Gallery Section**
+![Screenshot 2025-05-12 at 21-44-42 heartbeats-and-roses](https://github.com/user-attachments/assets/d2c49fe0-69fa-49dc-9b77-f4dc32d01721)
+
+
+
 ##  Key Features
 
 ### 1. Mood-Setting Backgrounds  
