@@ -28,21 +28,21 @@ const defaultPlaylist: Song[] = [
     title: "Lover's Rock",
     artist: "TV Girl",
     audioSrc: "/TV Girl - Lovers Rock [wcJY0WDe-H4].mp3",
-    coverImage: "/backgrounds/bg5.jpg"
+    coverImage: "/backgrounds/music0.jpg"
   },
   {
     id: "song-2",
     title: "Here With Me",
     artist: "d4vd",
     audioSrc: "d4vd - Here With Me (Official Audio) [B7Y4LHbpXv0].mp3", 
-    coverImage: "/backgrounds/bg1.jpg"
+    coverImage: "/backgrounds/music1.jpg"
   },
   {
     id: "song-3",
     title: "fools(can't help falling in love)",
     artist: "foster",
     audioSrc: "fools (can't help falling in love) ft. Sody & Sarcastic Sounds (Lyric Video) [3B5M8TyYpeg].mp3",
-    coverImage: "/backgrounds/bg7.jpg"
+    coverImage: "/backgrounds/music2.jpg"
   }
 ];
 
