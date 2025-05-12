@@ -63,7 +63,8 @@ The navbar includes a mood-setting background changer and smooth navigation—be
 - **Gradient Animations** for a lively, dreamy feel
 
 ---
-Heartbeats&Roses/
+
+```Heartbeats&Roses/
 ├── public/                     # Static assets
 │   ├── images/                 # Images used in the project
 │   │   ├── gallery/            # Gallery images
@@ -114,6 +115,7 @@ Heartbeats&Roses/
 ├── tsconfig.json               # TypeScript configuration
 ├── README.md                   # Project documentation
 └── LICENSE                     # Open-source license
+```
 ---
 
 ##  Funny Takeaways
