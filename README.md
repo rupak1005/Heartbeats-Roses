@@ -6,8 +6,8 @@ I built **Heartbeats & Roses** as a digital love letter disguised as a websiteâ€
 
 ---
 # Live Link
-https://heartbeatsroses.vercel.app/
 
+(https://heartbeatroses.netlify.app/)
 # Screenshots
 **Home**
 ![Screenshot 2025-05-12 at 21-59-36 heartbeats-and-roses](https://github.com/user-attachments/assets/3da1bc79-4c62-4534-b92d-ebc6416e0f86)
