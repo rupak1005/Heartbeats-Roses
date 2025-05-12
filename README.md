@@ -49,6 +49,58 @@ The navbar includes a mood-setting background changer and smooth navigation—be
 - **Gradient Animations** for a lively, dreamy feel
 
 ---
+Heartbeats&Roses/
+├── public/                     # Static assets
+│   ├── images/                 # Images used in the project
+│   │   ├── gallery/            # Gallery images
+│   │   ├── icons/              # Icons (e.g., hearts, play buttons)
+│   │   └── logo.png            # Site logo
+│   ├── audio/                  # Audio files for the playlist
+│   │   ├── track1.mp3
+│   │   ├── track2.mp3
+│   │   └── ...                 
+│   └── index.html              # Main HTML file
+├── src/                        # Source code
+│   ├── components/             # Reusable UI components
+│   │   ├── Navbar.tsx          # Navigation bar
+│   │   ├── AudioPlayer.tsx     # Custom audio player
+│   │   ├── ScratchCard.tsx     # Scratch card component
+│   │   ├── Toast.tsx           # Toast notifications
+│   │   ├── HeartAnimation.tsx  # Floating/pulsating hearts
+│   │   ├── GradientBackground.tsx # Animated gradient backgrounds
+│   │   └── Button.tsx          # Custom button component
+│   ├── pages/                  # Page components
+│   │   ├── Index.tsx           # Home page (Reasons to Love)
+│   │   ├── Gallery.tsx         # Gallery page
+│   │   ├── Music.tsx           # Music playlist page
+│   │   └── NotFound.tsx        # 404 page
+│   ├── hooks/                  # Custom React hooks
+│   │   ├── useIsMobile.ts      # Hook to detect mobile devices
+│   │   └── useAudioPlayer.ts   # Hook for audio player logic
+│   ├── styles/                 # Styling files
+│   │   ├── global.css          # Global styles
+│   │   ├── components/         # Component-specific styles
+│   │   │   ├── Navbar.css
+│   │   │   ├── AudioPlayer.css
+│   │   │   └── ...
+│   │   └── pages/              # Page-specific styles
+│   │       ├── Index.css
+│   │       ├── Gallery.css
+│   │       └── ...
+│   ├── utils/                  # Utility functions
+│   │   ├── formatDate.ts       # Helper to format dates
+│   │   ├── randomizeArray.ts   # Helper to randomize arrays
+│   │   └── ...
+│   ├── App.tsx                 # Main app component
+│   ├── index.tsx               # Entry point for React
+│   └── routes.tsx              # Route definitions
+├── .env                        # Environment variables
+├── .gitignore                  # Git ignore file
+├── package.json                # Project dependencies
+├── tsconfig.json               # TypeScript configuration
+├── README.md                   # Project documentation
+└── LICENSE                     # Open-source license
+---
 
 ##  Funny Takeaways
 
