@@ -1,13 +1,15 @@
 # Heartbeats & Roses 💖
 
-I built **Heartbeats & Roses** as a digital love letter disguised as a website—a blend of heartfelt emotions and my passion for tech. It’s a React-powered love story, and honestly, it turned out to be one of the most personal projects I’ve ever made. Every section reflects how much I care, not just about my girlfriend, but about crafting a meaningful experience through design and code.
+I built **Heartbeats & Roses** as a digital love letter disguised as a website—a blend of heartfelt emotions and my passion for tech. It’s a React-powered love story, and honestly, it turned out to be one of the most personal projects I’ve ever made.
+
+*This is the kind of project that makes single developers cry into their keyboards while muttering, "One day, maybe...". Every pixel screams, "I love you," and every line of code whispers, "I’m a hopeless romantic with React skills."*
 
 > **Note:** The lines and content in this public version are AI-generated and slightly altered to protect my privacy. I’ve removed personal images and original messages. You're welcome to customize it with your own memories and words.
 
 ---
 # Live Link
-https://heartbeatsroses.vercel.app/
 
+(https://heartbeatroses.netlify.app/)
 # Screenshots
 **Home**
 ![Screenshot 2025-05-12 at 21-59-36 heartbeats-and-roses](https://github.com/user-attachments/assets/3da1bc79-4c62-4534-b92d-ebc6416e0f86)
