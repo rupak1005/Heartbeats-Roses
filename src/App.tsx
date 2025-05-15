@@ -18,6 +18,7 @@ export const backgrounds = [
   "backgrounds/bg3.jpg",
   "backgrounds/bg4.jpg",
   "backgrounds/bg5.jpg",
+  "backgrounds/bg6.jpg",
   "backgrounds/bg7.jpg",
   "backgrounds/bg8.jpg",
   "backgrounds/bg9.jpg",
@@ -26,10 +27,12 @@ export const backgrounds = [
   "backgrounds/bg12.jpg",
   "backgrounds/bg13.jpg",
   "backgrounds/bg14.jpg",
+  "backgrounds/bg15.jpg",
+  "backgrounds/bg16.jpg",
 ];
 
 // List of backgrounds that are considered dark (to adjust text color)
-export const darkBackgrounds = [1, 3, 5, 8, 9, 10, 11]; // Indices of darker backgrounds
+export const darkBackgrounds = [1, 3, 5, 8, 9, 10, 11,14,15]; // Indices of darker backgrounds
 
 const queryClient = new QueryClient();
 
