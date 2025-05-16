@@ -30,8 +30,8 @@ export const backgrounds = [
   "backgrounds/bg15.jpg",
   "backgrounds/bg16.jpg",
 ];
-
-// List of backgrounds that are considered dark (to adjust text color)
+ 
+// backgrounds that are considered dark (to adjust text color)
 export const darkBackgrounds = [1, 3, 5, 8, 9, 10, 11,14,15]; // Indices of darker backgrounds
 
 const queryClient = new QueryClient();
